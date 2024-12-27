@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "question": "What is your primary skin concern?",
+    "options": [
+      { "value": "acne", "label": "Acne" },
+      { "value": "dryness", "label": "Dryness" },
+      { "value": "oiliness", "label": "Oiliness" },
+      { "value": "aging", "label": "Aging" }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "What type of skin do you have?",
+    "options": [
+      { "value": "dry", "label": "Dry" },
+      { "value": "oily", "label": "Oily" },
+      { "value": "combination", "label": "Combination" },
+      { "value": "sensitive", "label": "Sensitive" }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Test 1",
+    "options": [
+      { "value": "answer 1", "label": "Answer 1" },
+      { "value": "answer 2", "label": "Answer 2" },
+      { "value": "answer 3", "label": "Answer 3" },
+      { "value": "answer 4", "label": "Answer 4" }
+    ]
+  }
+]

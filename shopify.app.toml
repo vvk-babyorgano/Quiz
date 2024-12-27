@@ -1,3 +1,29 @@
-# This file stores configurations for your Shopify app.
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
+client_id = "29e28c6b64cd55b14e3a113c5d318880"
+application_url = "https://treatment-officer-analyze-tucson.trycloudflare.com"
+embedded = true
+name = "quiz-app"
+handle = "quiz-app-71"
+
+[build]
+include_config_on_deploy = true
+dev_store_url = "babyorgano-test.myshopify.com"
+automatically_update_urls_on_dev = true
+
+[webhooks]
+api_version = "2024-10"
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
 scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://treatment-officer-analyze-tucson.trycloudflare.com/auth/callback",
+  "https://treatment-officer-analyze-tucson.trycloudflare.com/auth/shopify/callback",
+  "https://treatment-officer-analyze-tucson.trycloudflare.com/api/auth/callback"
+]
+
+[pos]
+embedded = false
